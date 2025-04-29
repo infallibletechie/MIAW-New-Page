@@ -10,6 +10,7 @@
 				
 					console.log( "START:: Conversation Opened" );
 					console.log( "Event detail: ", JSON.stringify( event.detail ) );
+     					console.log( "Page location is " + window.location.href );
 					console.log( "END:: Conversation Opened" );
 				
 				} );
